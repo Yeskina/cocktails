@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/coktails/static/css/main.75aa91c4.chunk.css",
+    "main.js": "/coktails/static/js/main.dead7238.chunk.js",
+    "main.js.map": "/coktails/static/js/main.dead7238.chunk.js.map",
+    "runtime-main.js": "/coktails/static/js/runtime-main.f8e1233c.js",
+    "runtime-main.js.map": "/coktails/static/js/runtime-main.f8e1233c.js.map",
+    "static/js/2.18c8e2bd.chunk.js": "/coktails/static/js/2.18c8e2bd.chunk.js",
+    "static/js/2.18c8e2bd.chunk.js.map": "/coktails/static/js/2.18c8e2bd.chunk.js.map",
+    "index.html": "/coktails/index.html",
+    "static/css/main.75aa91c4.chunk.css.map": "/coktails/static/css/main.75aa91c4.chunk.css.map",
+    "static/js/2.18c8e2bd.chunk.js.LICENSE.txt": "/coktails/static/js/2.18c8e2bd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8e1233c.js",
+    "static/js/2.18c8e2bd.chunk.js",
+    "static/css/main.75aa91c4.chunk.css",
+    "static/js/main.dead7238.chunk.js"
+  ]
+}
