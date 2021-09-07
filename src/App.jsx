@@ -35,13 +35,6 @@ const App = () => {
 
   return (
     <HashRouter>
-      <nav className="header">
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-        </ul>
-      </nav>
       <Switch>
         <Route exact path="/cocktail/:idDrink">
           <Cocktails />
