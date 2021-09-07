@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/coktails/static/css/main.7d938c22.chunk.css",
-    "main.js": "/coktails/static/js/main.dead7238.chunk.js",
-    "main.js.map": "/coktails/static/js/main.dead7238.chunk.js.map",
+    "main.js": "/coktails/static/js/main.fc3de8a5.chunk.js",
+    "main.js.map": "/coktails/static/js/main.fc3de8a5.chunk.js.map",
     "runtime-main.js": "/coktails/static/js/runtime-main.f8e1233c.js",
     "runtime-main.js.map": "/coktails/static/js/runtime-main.f8e1233c.js.map",
     "static/js/2.18c8e2bd.chunk.js": "/coktails/static/js/2.18c8e2bd.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.f8e1233c.js",
     "static/js/2.18c8e2bd.chunk.js",
     "static/css/main.7d938c22.chunk.css",
-    "static/js/main.dead7238.chunk.js"
+    "static/js/main.fc3de8a5.chunk.js"
   ]
 }
