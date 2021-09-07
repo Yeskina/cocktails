@@ -35,7 +35,7 @@ const App = () => {
   }
 
   return (
-    <Router>
+    <Router path={process.env.PUBLIC_URL}>
       <nav className="header">
         <ul>
           <li>
