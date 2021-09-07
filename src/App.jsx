@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import { BrowserRouter as Router, Switch, Route, Link, useParams } from 'react-router-dom'
-import Coktails from './components/coktails/coktails'
+import { HashRouter, Switch, Route, Link } from 'react-router-dom'
+import Cocktails from './components/cocktails/cocktails'
 
 import './App.scss'
-
 
 const App = () => {
   const Home = () => {
@@ -21,11 +20,11 @@ const App = () => {
         <div className="container">
           {data.map(({ strDrink, strDrinkThumb, idDrink }) => {
             return (
-              <div key={idDrink} className="coctails">
+              <div key={idDrink} className="cocktails">
                 <div className="title">{strDrink}</div>
-                <a href={`/coctail/${idDrink}`}>
-                  <img src={strDrinkThumb} alt="coctail"></img>
-                </a>
+                <Link to={`/cocktail/${idDrink}`}>
+                  <img src={strDrinkThumb} alt="cocktail"></img>
+                </Link>
               </div>
             )
           })}
@@ -35,7 +34,7 @@ const App = () => {
   }
 
   return (
-    <Router path={process.env.PUBLIC_URL}>
+    <HashRouter>
       <nav className="header">
         <ul>
           <li>
@@ -44,14 +43,14 @@ const App = () => {
         </ul>
       </nav>
       <Switch>
-        <Route path="/coctail/:idDrink">
-          <Coktails />
-          </Route>
-        <Route path="/">
+        <Route exact path="/cocktail/:idDrink">
+          <Cocktails />
+        </Route>
+        <Route exact path="/">
           <Home />
         </Route>
       </Switch>
-    </Router>
+    </HashRouter>
   )
 }
 

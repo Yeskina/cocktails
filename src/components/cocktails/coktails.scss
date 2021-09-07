@@ -1,0 +1,62 @@
+body {
+  background: #290818;
+  color: #fff;
+}
+.cocktail-container {
+  width: 100%;
+
+  .small-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .image-container {
+      margin: 0 0 20px 50px;
+
+      .cocktails-image {
+        margin-top: 50px;
+        width: 500px;
+        height: 500px;
+      }
+    }
+
+    .titles {
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .ingredients {
+      display: flex;
+      flex-wrap: wrap;
+      width: 70%;
+      justify-content: space-evenly;
+      margin-top: 20px;
+    }
+
+    .cocktail-signature {
+      text-align: center;
+      padding-bottom: 20px;
+
+      .description {
+        margin: 20px 60px;
+        color: #cfa9d2;
+        border: 2px solid #a78d9b;
+        padding: 10px;
+        width: 100px;
+      }
+    }
+  }
+
+  .instruction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .ins {
+      width: 500px; 
+      text-align: center;
+    }
+  }
+}
